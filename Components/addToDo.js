@@ -16,7 +16,7 @@ export default function AddToDo({submitHandler}){
             placeholder='Add new Todo'
             onChangeText = {(val) => changeHandler(val)}
             />
-            <Button onPress={() => submitHandler(text)} color='black' title='Add' />
+            <Button onPress={() => submitHandler(text) } color='black' title='Add' />
         </View>
         
     )
